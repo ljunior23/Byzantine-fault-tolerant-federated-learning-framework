@@ -1,0 +1,29 @@
+import torch
+import torch.nn as nn
+import numpy as np
+from typing import List, Tuple
+import copy  
+import logging
+
+class ByzantineCoreDefense:
+    def __init__(self, f: int, device: str = "cuda"):
+        self.f = f
+        # Fix: One clean line to set the device
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    def flatten_update(self, updates_list: List[List[torch.Tensor]]) -> torch.Tensor:
+        flattened = []
+        for client_grads in updates_list:
+            # Flatten layers of a single client
+            flat_vector = torch.cat([grad.view(-1) for grad in client_grads])
+            flattened.append(flat_vector)
+
+        # Fix: Move return OUTSIDE the loop to collect ALL clients
+        return torch.stack(flattened).to(self.device)
+
+    def reconstruct_update(self, flat_vector, reference_grads):
+        layer_size = [g.numel() for g in reference_grads]
+        chunks = torch.split(flat_vector, layer_size)
+        # Zip pairs the chunk with the original layer's shape
+        return [c.view_as(ref) for c, ref in zip(chunks, reference_grads)]
+Not finished must add the aggregaftion
