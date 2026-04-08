@@ -40,7 +40,7 @@ bft-fl/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -82,7 +82,7 @@ cd docker && docker-compose up --build
 
 ---
 
-## ⚔️ Attack Suite
+## Attack Suite
 
 | Attack | Description | Evasion Difficulty |
 |--------|-------------|-------------------|
@@ -95,7 +95,7 @@ cd docker && docker-compose up --build
 
 ---
 
-## 🛡️ Defense Suite
+## Defense Suite
 
 | Defense | Mechanism | Optimal Against |
 |---------|-----------|-----------------|
@@ -108,7 +108,7 @@ cd docker && docker-compose up --build
 
 ---
 
-## 🔍 Detection Layers
+## Detection Layers
 
 **Layer 1 — Z-Score Norm Filtering**
 - Computes gradient L2 norms; flags clients with |z| > 2.5
@@ -124,7 +124,7 @@ cd docker && docker-compose up --build
 
 ---
 
-## 📊 Adaptive Strategy Selection
+## Adaptive Strategy Selection
 
 ```
 threat_level = 0.4 × flagged_ratio + 0.3 × cosine_anomaly + 0.3 × zscore_ratio
@@ -136,7 +136,7 @@ threat_level < 0.1 → Normalized (fastest, light defense)
 
 ---
 
-## 🎯 Expected Results
+## Expected Results
 
 | Scenario | Target |
 |----------|--------|
@@ -147,7 +147,7 @@ threat_level < 0.1 → Normalized (fastest, light defense)
 
 ---
 
-## 📚 References
+## References
 
 1. Blanchard et al. — *Machine Learning with Adversaries*, NeurIPS 2017 (Krum)
 2. Yin et al. — *Byzantine-Robust Distributed Learning*, ICML 2018 (Trimmed Mean)
@@ -157,6 +157,3 @@ threat_level < 0.1 → Normalized (fastest, light defense)
 
 ---
 
-## 👤 Author
-
-Kwame | University of Michigan-Dearborn | Trustworthy AI
