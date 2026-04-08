@@ -1,0 +1,6098 @@
+[
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 9.8,
+    "final_loss": NaN,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 25.65,
+        "loss": 2.1369453191757204
+      },
+      {
+        "round": 5,
+        "accuracy": 72.93,
+        "loss": 0.7233207389712334
+      },
+      {
+        "round": 10,
+        "accuracy": 36.55,
+        "loss": 2.2639938622713087
+      },
+      {
+        "round": 15,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 20,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 25,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 30,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 35,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 40,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 45,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 49,
+        "accuracy": 9.8,
+        "loss": NaN
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 2.3,
+      "total_runtime_s": 2154.91
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 9.8,
+    "final_loss": NaN,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 10.28,
+        "loss": 3.160700684785843
+      },
+      {
+        "round": 5,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 10,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 15,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 20,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 25,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 30,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 35,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 40,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 45,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 49,
+        "accuracy": 9.8,
+        "loss": NaN
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 0.76,
+      "total_runtime_s": 2154.43
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 9.8,
+    "final_loss": NaN,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 9.58,
+        "loss": 8.843287444114685
+      },
+      {
+        "round": 5,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 10,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 15,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 20,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 25,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 30,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 35,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 40,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 45,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 49,
+        "accuracy": 9.8,
+        "loss": NaN
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 0.54,
+      "total_runtime_s": 2128.33
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 9.8,
+    "final_loss": NaN,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 12.7,
+        "loss": 9.521425986289978
+      },
+      {
+        "round": 5,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 10,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 15,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 20,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 25,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 30,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 35,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 40,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 45,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 49,
+        "accuracy": 9.8,
+        "loss": NaN
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 0.36,
+      "total_runtime_s": 2126.25
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 94.86,
+    "final_loss": 0.1896,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 68.34,
+        "loss": 1.7033506900072097
+      },
+      {
+        "round": 5,
+        "accuracy": 86.72,
+        "loss": 0.5372701235115528
+      },
+      {
+        "round": 10,
+        "accuracy": 87.45,
+        "loss": 0.4907462114468217
+      },
+      {
+        "round": 15,
+        "accuracy": 95.72,
+        "loss": 0.1423585302196443
+      },
+      {
+        "round": 20,
+        "accuracy": 91.97,
+        "loss": 0.32800388857722285
+      },
+      {
+        "round": 25,
+        "accuracy": 91.4,
+        "loss": 0.3656571531202644
+      },
+      {
+        "round": 30,
+        "accuracy": 89.6,
+        "loss": 0.4808786394074559
+      },
+      {
+        "round": 35,
+        "accuracy": 92.19,
+        "loss": 0.28640398075804113
+      },
+      {
+        "round": 40,
+        "accuracy": 91.81,
+        "loss": 0.32942534778267146
+      },
+      {
+        "round": 45,
+        "accuracy": 95.44,
+        "loss": 0.17615316985320534
+      },
+      {
+        "round": 49,
+        "accuracy": 94.86,
+        "loss": 0.18961063373135403
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.52,
+      "total_runtime_s": 2136.08
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 94.93,
+    "final_loss": 0.1915,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 68.42,
+        "loss": 1.489450252056122
+      },
+      {
+        "round": 5,
+        "accuracy": 91.59,
+        "loss": 0.2576180770993233
+      },
+      {
+        "round": 10,
+        "accuracy": 90.79,
+        "loss": 0.295495449192822
+      },
+      {
+        "round": 15,
+        "accuracy": 93.51,
+        "loss": 0.2294111372437328
+      },
+      {
+        "round": 20,
+        "accuracy": 89.2,
+        "loss": 0.5306345421820879
+      },
+      {
+        "round": 25,
+        "accuracy": 96.16,
+        "loss": 0.1301689814979909
+      },
+      {
+        "round": 30,
+        "accuracy": 95.3,
+        "loss": 0.18101141334409476
+      },
+      {
+        "round": 35,
+        "accuracy": 95.33,
+        "loss": 0.1919645541231148
+      },
+      {
+        "round": 40,
+        "accuracy": 95.96,
+        "loss": 0.15382270939153386
+      },
+      {
+        "round": 45,
+        "accuracy": 95.56,
+        "loss": 0.16923139998834813
+      },
+      {
+        "round": 49,
+        "accuracy": 94.93,
+        "loss": 0.19146102424128913
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.88,
+      "total_runtime_s": 2142.03
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 97.84,
+    "final_loss": 0.0854,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 93.8,
+        "loss": 0.19256582418456675
+      },
+      {
+        "round": 5,
+        "accuracy": 95.86,
+        "loss": 0.12744574139360337
+      },
+      {
+        "round": 10,
+        "accuracy": 93.07,
+        "loss": 0.23369577070698141
+      },
+      {
+        "round": 15,
+        "accuracy": 96.81,
+        "loss": 0.12315398371429183
+      },
+      {
+        "round": 20,
+        "accuracy": 97.62,
+        "loss": 0.08726778441741771
+      },
+      {
+        "round": 25,
+        "accuracy": 96.96,
+        "loss": 0.10496155442961026
+      },
+      {
+        "round": 30,
+        "accuracy": 97.69,
+        "loss": 0.09014054144063266
+      },
+      {
+        "round": 35,
+        "accuracy": 94.69,
+        "loss": 0.19737653443589806
+      },
+      {
+        "round": 40,
+        "accuracy": 97.37,
+        "loss": 0.1033976718885242
+      },
+      {
+        "round": 45,
+        "accuracy": 97.89,
+        "loss": 0.08440501844756909
+      },
+      {
+        "round": 49,
+        "accuracy": 97.84,
+        "loss": 0.08544706048824083
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.88,
+      "total_runtime_s": 2140.91
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 96.15,
+    "final_loss": 0.1416,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 68.22,
+        "loss": 1.6206071615219115
+      },
+      {
+        "round": 5,
+        "accuracy": 90.04,
+        "loss": 0.2987739760428667
+      },
+      {
+        "round": 10,
+        "accuracy": 91.28,
+        "loss": 0.2852673077955842
+      },
+      {
+        "round": 15,
+        "accuracy": 97.12,
+        "loss": 0.09729158922564238
+      },
+      {
+        "round": 20,
+        "accuracy": 94.89,
+        "loss": 0.17487730334978552
+      },
+      {
+        "round": 25,
+        "accuracy": 95.05,
+        "loss": 0.17538932152092457
+      },
+      {
+        "round": 30,
+        "accuracy": 96.76,
+        "loss": 0.11523823214811273
+      },
+      {
+        "round": 35,
+        "accuracy": 94.93,
+        "loss": 0.1908420958381612
+      },
+      {
+        "round": 40,
+        "accuracy": 95.26,
+        "loss": 0.18020723197842017
+      },
+      {
+        "round": 45,
+        "accuracy": 97.68,
+        "loss": 0.07711793212511112
+      },
+      {
+        "round": 49,
+        "accuracy": 96.15,
+        "loss": 0.1415658276004251
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.9,
+      "total_runtime_s": 2130.06
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.22,
+    "final_loss": 0.0237,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 94.95,
+        "loss": 0.4345843482762575
+      },
+      {
+        "round": 5,
+        "accuracy": 98.59,
+        "loss": 0.0410508689332346
+      },
+      {
+        "round": 10,
+        "accuracy": 99.04,
+        "loss": 0.028402013716549844
+      },
+      {
+        "round": 15,
+        "accuracy": 99.11,
+        "loss": 0.025198120063305397
+      },
+      {
+        "round": 20,
+        "accuracy": 99.0,
+        "loss": 0.02678903337382508
+      },
+      {
+        "round": 25,
+        "accuracy": 99.13,
+        "loss": 0.024336288761878676
+      },
+      {
+        "round": 30,
+        "accuracy": 99.28,
+        "loss": 0.021956338670497642
+      },
+      {
+        "round": 35,
+        "accuracy": 99.3,
+        "loss": 0.021803465228185815
+      },
+      {
+        "round": 40,
+        "accuracy": 99.24,
+        "loss": 0.02305461861594722
+      },
+      {
+        "round": 45,
+        "accuracy": 99.25,
+        "loss": 0.023405635690841108
+      },
+      {
+        "round": 49,
+        "accuracy": 99.22,
+        "loss": 0.023654965062155496
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 9.94,
+      "total_runtime_s": 2130.24
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.08,
+    "final_loss": 0.0279,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 81.25,
+        "loss": 0.6581223599612713
+      },
+      {
+        "round": 5,
+        "accuracy": 98.27,
+        "loss": 0.05090320116723888
+      },
+      {
+        "round": 10,
+        "accuracy": 98.69,
+        "loss": 0.04024504688240995
+      },
+      {
+        "round": 15,
+        "accuracy": 98.89,
+        "loss": 0.030130334683963155
+      },
+      {
+        "round": 20,
+        "accuracy": 98.77,
+        "loss": 0.03581845759040334
+      },
+      {
+        "round": 25,
+        "accuracy": 98.99,
+        "loss": 0.030775092203111854
+      },
+      {
+        "round": 30,
+        "accuracy": 99.09,
+        "loss": 0.02700785339693539
+      },
+      {
+        "round": 35,
+        "accuracy": 99.18,
+        "loss": 0.022986114908462696
+      },
+      {
+        "round": 40,
+        "accuracy": 99.16,
+        "loss": 0.02342787500506347
+      },
+      {
+        "round": 45,
+        "accuracy": 98.98,
+        "loss": 0.029678052979170387
+      },
+      {
+        "round": 49,
+        "accuracy": 99.08,
+        "loss": 0.02790519937643694
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 9.88,
+      "total_runtime_s": 2125.8
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.04,
+    "final_loss": 0.0268,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 73.06,
+        "loss": 0.9748128935694694
+      },
+      {
+        "round": 5,
+        "accuracy": 95.99,
+        "loss": 0.11522429075557739
+      },
+      {
+        "round": 10,
+        "accuracy": 98.36,
+        "loss": 0.05173118242091732
+      },
+      {
+        "round": 15,
+        "accuracy": 98.73,
+        "loss": 0.04004463363999093
+      },
+      {
+        "round": 20,
+        "accuracy": 98.85,
+        "loss": 0.03357354999279778
+      },
+      {
+        "round": 25,
+        "accuracy": 98.86,
+        "loss": 0.034322561703993414
+      },
+      {
+        "round": 30,
+        "accuracy": 98.71,
+        "loss": 0.036254443914731385
+      },
+      {
+        "round": 35,
+        "accuracy": 98.59,
+        "loss": 0.038543543778541786
+      },
+      {
+        "round": 40,
+        "accuracy": 98.77,
+        "loss": 0.03433948327851795
+      },
+      {
+        "round": 45,
+        "accuracy": 98.85,
+        "loss": 0.03241226063710201
+      },
+      {
+        "round": 49,
+        "accuracy": 99.04,
+        "loss": 0.026826491734937008
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 9.96,
+      "total_runtime_s": 2128.44
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 98.56,
+    "final_loss": 0.0441,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 29.48,
+        "loss": 2.23216752409935
+      },
+      {
+        "round": 5,
+        "accuracy": 86.13,
+        "loss": 0.4579391822218895
+      },
+      {
+        "round": 10,
+        "accuracy": 92.6,
+        "loss": 0.23640909227542578
+      },
+      {
+        "round": 15,
+        "accuracy": 97.82,
+        "loss": 0.06362057852966245
+      },
+      {
+        "round": 20,
+        "accuracy": 96.49,
+        "loss": 0.10584971288917586
+      },
+      {
+        "round": 25,
+        "accuracy": 97.95,
+        "loss": 0.061138115474022925
+      },
+      {
+        "round": 30,
+        "accuracy": 96.31,
+        "loss": 0.11462331339134835
+      },
+      {
+        "round": 35,
+        "accuracy": 97.65,
+        "loss": 0.07083219284540973
+      },
+      {
+        "round": 40,
+        "accuracy": 98.79,
+        "loss": 0.035698546568892195
+      },
+      {
+        "round": 45,
+        "accuracy": 97.77,
+        "loss": 0.07384300984776929
+      },
+      {
+        "round": 49,
+        "accuracy": 98.56,
+        "loss": 0.044094328086066524
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 9.84,
+      "total_runtime_s": 2124.39
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.18,
+    "final_loss": 0.0228,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 95.4,
+        "loss": 0.31063273884356024
+      },
+      {
+        "round": 5,
+        "accuracy": 98.57,
+        "loss": 0.04181874796558986
+      },
+      {
+        "round": 10,
+        "accuracy": 98.97,
+        "loss": 0.027709576168854257
+      },
+      {
+        "round": 15,
+        "accuracy": 99.06,
+        "loss": 0.026506490662177383
+      },
+      {
+        "round": 20,
+        "accuracy": 99.12,
+        "loss": 0.022780705861168826
+      },
+      {
+        "round": 25,
+        "accuracy": 99.14,
+        "loss": 0.023062487085280737
+      },
+      {
+        "round": 30,
+        "accuracy": 99.18,
+        "loss": 0.022930877226031043
+      },
+      {
+        "round": 35,
+        "accuracy": 99.21,
+        "loss": 0.021011208779975733
+      },
+      {
+        "round": 40,
+        "accuracy": 99.24,
+        "loss": 0.02122302417346873
+      },
+      {
+        "round": 45,
+        "accuracy": 99.18,
+        "loss": 0.020536427268768875
+      },
+      {
+        "round": 49,
+        "accuracy": 99.18,
+        "loss": 0.022755910288600488
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 9.94,
+      "total_runtime_s": 2124.96
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.21,
+    "final_loss": 0.0243,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 89.69,
+        "loss": 0.5962118722498417
+      },
+      {
+        "round": 5,
+        "accuracy": 98.44,
+        "loss": 0.0445831047691172
+      },
+      {
+        "round": 10,
+        "accuracy": 98.91,
+        "loss": 0.031341638071171476
+      },
+      {
+        "round": 15,
+        "accuracy": 98.87,
+        "loss": 0.02943167146004271
+      },
+      {
+        "round": 20,
+        "accuracy": 99.08,
+        "loss": 0.02517874304048746
+      },
+      {
+        "round": 25,
+        "accuracy": 99.01,
+        "loss": 0.027397708220178174
+      },
+      {
+        "round": 30,
+        "accuracy": 99.1,
+        "loss": 0.02562453067698698
+      },
+      {
+        "round": 35,
+        "accuracy": 99.15,
+        "loss": 0.0248915555675012
+      },
+      {
+        "round": 40,
+        "accuracy": 99.19,
+        "loss": 0.022003281851630162
+      },
+      {
+        "round": 45,
+        "accuracy": 99.24,
+        "loss": 0.02224713168325252
+      },
+      {
+        "round": 49,
+        "accuracy": 99.21,
+        "loss": 0.024282660628364282
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 9.8,
+      "total_runtime_s": 2127.17
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 98.75,
+    "final_loss": 0.0382,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 82.36,
+        "loss": 0.9576752603054046
+      },
+      {
+        "round": 5,
+        "accuracy": 97.66,
+        "loss": 0.06970952547271736
+      },
+      {
+        "round": 10,
+        "accuracy": 98.75,
+        "loss": 0.03581681660725735
+      },
+      {
+        "round": 15,
+        "accuracy": 98.75,
+        "loss": 0.03632959754613694
+      },
+      {
+        "round": 20,
+        "accuracy": 98.82,
+        "loss": 0.033539284887956454
+      },
+      {
+        "round": 25,
+        "accuracy": 98.69,
+        "loss": 0.038646834537939864
+      },
+      {
+        "round": 30,
+        "accuracy": 99.04,
+        "loss": 0.028228444743945147
+      },
+      {
+        "round": 35,
+        "accuracy": 98.7,
+        "loss": 0.041696901876684934
+      },
+      {
+        "round": 40,
+        "accuracy": 98.66,
+        "loss": 0.04021007256669691
+      },
+      {
+        "round": 45,
+        "accuracy": 98.78,
+        "loss": 0.03832343018793836
+      },
+      {
+        "round": 49,
+        "accuracy": 98.75,
+        "loss": 0.038194076546824364
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 9.96,
+      "total_runtime_s": 2124.99
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 98.32,
+    "final_loss": 0.0478,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 76.63,
+        "loss": 0.7935049772262573
+      },
+      {
+        "round": 5,
+        "accuracy": 93.11,
+        "loss": 0.21162990708835422
+      },
+      {
+        "round": 10,
+        "accuracy": 83.57,
+        "loss": 0.5627602271735668
+      },
+      {
+        "round": 15,
+        "accuracy": 97.06,
+        "loss": 0.09472883484559133
+      },
+      {
+        "round": 20,
+        "accuracy": 98.31,
+        "loss": 0.04884580531506799
+      },
+      {
+        "round": 25,
+        "accuracy": 97.91,
+        "loss": 0.06445790550314996
+      },
+      {
+        "round": 30,
+        "accuracy": 97.1,
+        "loss": 0.08884565863991156
+      },
+      {
+        "round": 35,
+        "accuracy": 98.51,
+        "loss": 0.04159957472220412
+      },
+      {
+        "round": 40,
+        "accuracy": 97.97,
+        "loss": 0.06707453879462263
+      },
+      {
+        "round": 45,
+        "accuracy": 98.35,
+        "loss": 0.05285051016253419
+      },
+      {
+        "round": 49,
+        "accuracy": 98.32,
+        "loss": 0.04783514134142024
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 9.9,
+      "total_runtime_s": 2124.39
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.16,
+    "final_loss": 0.0245,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 77.6,
+        "loss": 2.0805342733860015
+      },
+      {
+        "round": 5,
+        "accuracy": 97.48,
+        "loss": 0.11888566333800554
+      },
+      {
+        "round": 10,
+        "accuracy": 98.54,
+        "loss": 0.0457341433284455
+      },
+      {
+        "round": 15,
+        "accuracy": 98.82,
+        "loss": 0.03389041700611415
+      },
+      {
+        "round": 20,
+        "accuracy": 98.92,
+        "loss": 0.029504539163826848
+      },
+      {
+        "round": 25,
+        "accuracy": 99.07,
+        "loss": 0.025597047794508398
+      },
+      {
+        "round": 30,
+        "accuracy": 99.16,
+        "loss": 0.024274243607032987
+      },
+      {
+        "round": 35,
+        "accuracy": 99.16,
+        "loss": 0.02256838411535682
+      },
+      {
+        "round": 40,
+        "accuracy": 99.09,
+        "loss": 0.026966136373312112
+      },
+      {
+        "round": 45,
+        "accuracy": 99.18,
+        "loss": 0.022992139261054943
+      },
+      {
+        "round": 49,
+        "accuracy": 99.16,
+        "loss": 0.02453532777881833
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.9,
+      "total_runtime_s": 2123.2
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.18,
+    "final_loss": 0.0246,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 65.42,
+        "loss": 2.110558235645294
+      },
+      {
+        "round": 5,
+        "accuracy": 96.3,
+        "loss": 0.258691269159317
+      },
+      {
+        "round": 10,
+        "accuracy": 97.81,
+        "loss": 0.06825720213819295
+      },
+      {
+        "round": 15,
+        "accuracy": 98.48,
+        "loss": 0.04600452912054607
+      },
+      {
+        "round": 20,
+        "accuracy": 98.82,
+        "loss": 0.037177853360117294
+      },
+      {
+        "round": 25,
+        "accuracy": 99.02,
+        "loss": 0.03062788619972707
+      },
+      {
+        "round": 30,
+        "accuracy": 98.98,
+        "loss": 0.029835776783329493
+      },
+      {
+        "round": 35,
+        "accuracy": 99.08,
+        "loss": 0.027999092040681718
+      },
+      {
+        "round": 40,
+        "accuracy": 99.15,
+        "loss": 0.025707844350472443
+      },
+      {
+        "round": 45,
+        "accuracy": 99.12,
+        "loss": 0.030690603413370356
+      },
+      {
+        "round": 49,
+        "accuracy": 99.18,
+        "loss": 0.024643311297199943
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.9,
+      "total_runtime_s": 2124.15
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 98.81,
+    "final_loss": 0.0324,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 56.79,
+        "loss": 2.195453703403473
+      },
+      {
+        "round": 5,
+        "accuracy": 95.96,
+        "loss": 0.8643138736486435
+      },
+      {
+        "round": 10,
+        "accuracy": 97.47,
+        "loss": 0.14552128342911602
+      },
+      {
+        "round": 15,
+        "accuracy": 97.81,
+        "loss": 0.07336541724507697
+      },
+      {
+        "round": 20,
+        "accuracy": 98.25,
+        "loss": 0.04906828047096497
+      },
+      {
+        "round": 25,
+        "accuracy": 98.44,
+        "loss": 0.04282231605029665
+      },
+      {
+        "round": 30,
+        "accuracy": 98.77,
+        "loss": 0.03284605975859449
+      },
+      {
+        "round": 35,
+        "accuracy": 98.98,
+        "loss": 0.02979645711966441
+      },
+      {
+        "round": 40,
+        "accuracy": 98.85,
+        "loss": 0.030609308668863376
+      },
+      {
+        "round": 45,
+        "accuracy": 98.96,
+        "loss": 0.02814341122721089
+      },
+      {
+        "round": 49,
+        "accuracy": 98.81,
+        "loss": 0.032377553140395324
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.92,
+      "total_runtime_s": 2122.84
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 95.79,
+    "final_loss": 0.1263,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 16.98,
+        "loss": 2.282031112909317
+      },
+      {
+        "round": 5,
+        "accuracy": 89.36,
+        "loss": 1.7572228908538818
+      },
+      {
+        "round": 10,
+        "accuracy": 94.5,
+        "loss": 1.1029197499155998
+      },
+      {
+        "round": 15,
+        "accuracy": 92.38,
+        "loss": 0.7170719385147095
+      },
+      {
+        "round": 20,
+        "accuracy": 95.6,
+        "loss": 0.34299897588789463
+      },
+      {
+        "round": 25,
+        "accuracy": 96.03,
+        "loss": 0.21438812352716924
+      },
+      {
+        "round": 30,
+        "accuracy": 97.4,
+        "loss": 0.10446762957144529
+      },
+      {
+        "round": 35,
+        "accuracy": 97.68,
+        "loss": 0.07790024754358456
+      },
+      {
+        "round": 40,
+        "accuracy": 97.18,
+        "loss": 0.08488289627130144
+      },
+      {
+        "round": 45,
+        "accuracy": 96.94,
+        "loss": 0.08854037998826243
+      },
+      {
+        "round": 49,
+        "accuracy": 95.79,
+        "loss": 0.12631676991004498
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.12,
+      "total_runtime_s": 2136.39
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 94.69,
+    "final_loss": 0.2441,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 88.2,
+        "loss": 0.3856587022542953
+      },
+      {
+        "round": 5,
+        "accuracy": 90.17,
+        "loss": 0.3428540317341685
+      },
+      {
+        "round": 10,
+        "accuracy": 88.57,
+        "loss": 0.4671422278508544
+      },
+      {
+        "round": 15,
+        "accuracy": 94.28,
+        "loss": 0.20629956792108714
+      },
+      {
+        "round": 20,
+        "accuracy": 91.45,
+        "loss": 0.351327652274631
+      },
+      {
+        "round": 25,
+        "accuracy": 91.63,
+        "loss": 0.35181054605636747
+      },
+      {
+        "round": 30,
+        "accuracy": 91.51,
+        "loss": 0.3818618398159742
+      },
+      {
+        "round": 35,
+        "accuracy": 91.5,
+        "loss": 0.4303742725169286
+      },
+      {
+        "round": 40,
+        "accuracy": 94.73,
+        "loss": 0.2055854736303445
+      },
+      {
+        "round": 45,
+        "accuracy": 93.84,
+        "loss": 0.2623488971381448
+      },
+      {
+        "round": 49,
+        "accuracy": 94.69,
+        "loss": 0.24412132911384105
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 49,
+        "trimmed_mean": 1
+      },
+      "avg_flagged_per_round": 9.92,
+      "total_runtime_s": 2172.52
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 96.08,
+    "final_loss": 0.1401,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 82.78,
+        "loss": 0.44155714511871336
+      },
+      {
+        "round": 5,
+        "accuracy": 83.48,
+        "loss": 0.6934790551662445
+      },
+      {
+        "round": 10,
+        "accuracy": 84.19,
+        "loss": 0.6838404174894095
+      },
+      {
+        "round": 15,
+        "accuracy": 89.35,
+        "loss": 0.4003956137225032
+      },
+      {
+        "round": 20,
+        "accuracy": 89.83,
+        "loss": 0.4258518969640136
+      },
+      {
+        "round": 25,
+        "accuracy": 88.84,
+        "loss": 0.4826640736311674
+      },
+      {
+        "round": 30,
+        "accuracy": 92.06,
+        "loss": 0.30584045010618865
+      },
+      {
+        "round": 35,
+        "accuracy": 97.3,
+        "loss": 0.09676093349262374
+      },
+      {
+        "round": 40,
+        "accuracy": 91.21,
+        "loss": 0.38856796845793723
+      },
+      {
+        "round": 45,
+        "accuracy": 97.05,
+        "loss": 0.11769410290871747
+      },
+      {
+        "round": 49,
+        "accuracy": 96.08,
+        "loss": 0.14009444335242732
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 48,
+        "trimmed_mean": 2
+      },
+      "avg_flagged_per_round": 9.88,
+      "total_runtime_s": 2144.84
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 96.35,
+    "final_loss": 0.1345,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 86.15,
+        "loss": 0.3619417674839497
+      },
+      {
+        "round": 5,
+        "accuracy": 93.44,
+        "loss": 0.19509139684960247
+      },
+      {
+        "round": 10,
+        "accuracy": 95.83,
+        "loss": 0.13373030757065862
+      },
+      {
+        "round": 15,
+        "accuracy": 93.48,
+        "loss": 0.24239448886364698
+      },
+      {
+        "round": 20,
+        "accuracy": 96.46,
+        "loss": 0.12698551910580136
+      },
+      {
+        "round": 25,
+        "accuracy": 94.6,
+        "loss": 0.20824970620451494
+      },
+      {
+        "round": 30,
+        "accuracy": 95.84,
+        "loss": 0.14621809776872396
+      },
+      {
+        "round": 35,
+        "accuracy": 95.72,
+        "loss": 0.16606291007483379
+      },
+      {
+        "round": 40,
+        "accuracy": 97.18,
+        "loss": 0.10463350001591606
+      },
+      {
+        "round": 45,
+        "accuracy": 96.3,
+        "loss": 0.14002009290852585
+      },
+      {
+        "round": 49,
+        "accuracy": 96.35,
+        "loss": 0.13452720888599287
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 49,
+        "trimmed_mean": 1
+      },
+      "avg_flagged_per_round": 9.92,
+      "total_runtime_s": 2111.49
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.SIGN_FLIP",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 97.6,
+    "final_loss": 0.0888,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 89.12,
+        "loss": 0.308825852535665
+      },
+      {
+        "round": 5,
+        "accuracy": 91.02,
+        "loss": 0.30894233006983995
+      },
+      {
+        "round": 10,
+        "accuracy": 94.43,
+        "loss": 0.19321755247656255
+      },
+      {
+        "round": 15,
+        "accuracy": 97.76,
+        "loss": 0.07304168480986846
+      },
+      {
+        "round": 20,
+        "accuracy": 95.92,
+        "loss": 0.1415606798429508
+      },
+      {
+        "round": 25,
+        "accuracy": 96.72,
+        "loss": 0.12132215662277304
+      },
+      {
+        "round": 30,
+        "accuracy": 96.16,
+        "loss": 0.1601301153888926
+      },
+      {
+        "round": 35,
+        "accuracy": 96.5,
+        "loss": 0.1375206343946047
+      },
+      {
+        "round": 40,
+        "accuracy": 98.22,
+        "loss": 0.06720462787870929
+      },
+      {
+        "round": 45,
+        "accuracy": 98.25,
+        "loss": 0.06956512499086784
+      },
+      {
+        "round": 49,
+        "accuracy": 97.6,
+        "loss": 0.08879146274339292
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 49,
+        "trimmed_mean": 1
+      },
+      "avg_flagged_per_round": 9.92,
+      "total_runtime_s": 2111.11
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 98.59,
+    "final_loss": 0.0488,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 86.57,
+        "loss": 0.8632421404123306
+      },
+      {
+        "round": 5,
+        "accuracy": 95.62,
+        "loss": 0.1348543990519829
+      },
+      {
+        "round": 10,
+        "accuracy": 95.42,
+        "loss": 0.14569561928510666
+      },
+      {
+        "round": 15,
+        "accuracy": 97.8,
+        "loss": 0.06462427546503022
+      },
+      {
+        "round": 20,
+        "accuracy": 95.43,
+        "loss": 0.1592216106830165
+      },
+      {
+        "round": 25,
+        "accuracy": 98.44,
+        "loss": 0.05397440208980697
+      },
+      {
+        "round": 30,
+        "accuracy": 98.23,
+        "loss": 0.06478886948721083
+      },
+      {
+        "round": 35,
+        "accuracy": 98.64,
+        "loss": 0.04647460129781393
+      },
+      {
+        "round": 40,
+        "accuracy": 99.0,
+        "loss": 0.03449732666251748
+      },
+      {
+        "round": 45,
+        "accuracy": 99.12,
+        "loss": 0.030227034084089156
+      },
+      {
+        "round": 49,
+        "accuracy": 98.59,
+        "loss": 0.04881287816717439
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 10.0,
+      "total_runtime_s": 2111.17
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 93.53,
+    "final_loss": 0.2102,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 93.65,
+        "loss": 0.9189175932200101
+      },
+      {
+        "round": 5,
+        "accuracy": 87.48,
+        "loss": 0.5905020721256733
+      },
+      {
+        "round": 10,
+        "accuracy": 66.94,
+        "loss": 5.30757947564125
+      },
+      {
+        "round": 15,
+        "accuracy": 86.92,
+        "loss": 0.4797792099416256
+      },
+      {
+        "round": 20,
+        "accuracy": 89.03,
+        "loss": 0.6327226657420397
+      },
+      {
+        "round": 25,
+        "accuracy": 94.36,
+        "loss": 0.17914094375446438
+      },
+      {
+        "round": 30,
+        "accuracy": 91.98,
+        "loss": 0.3543621075339615
+      },
+      {
+        "round": 35,
+        "accuracy": 93.91,
+        "loss": 0.23900550920516253
+      },
+      {
+        "round": 40,
+        "accuracy": 95.82,
+        "loss": 0.1693872541654855
+      },
+      {
+        "round": 45,
+        "accuracy": 77.42,
+        "loss": 0.9610961601138115
+      },
+      {
+        "round": 49,
+        "accuracy": 93.53,
+        "loss": 0.21020962236216292
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 8.92,
+      "total_runtime_s": 2115.49
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 9.8,
+    "final_loss": NaN,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 92.57,
+        "loss": 1.7788563715293826
+      },
+      {
+        "round": 5,
+        "accuracy": 9.83,
+        "loss": 22.59761848449707
+      },
+      {
+        "round": 10,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 15,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 20,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 25,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 30,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 35,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 40,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 45,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 49,
+        "accuracy": 9.8,
+        "loss": NaN
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 1.28,
+      "total_runtime_s": 2107.5
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 10.09,
+    "final_loss": 12.0101,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 93.74,
+        "loss": 3.7303878337144853
+      },
+      {
+        "round": 5,
+        "accuracy": 26.02,
+        "loss": 13.726983284950256
+      },
+      {
+        "round": 10,
+        "accuracy": 11.45,
+        "loss": 4.828007006645203
+      },
+      {
+        "round": 15,
+        "accuracy": 9.74,
+        "loss": 14.049264430999756
+      },
+      {
+        "round": 20,
+        "accuracy": 9.58,
+        "loss": 13.24996645450592
+      },
+      {
+        "round": 25,
+        "accuracy": 9.74,
+        "loss": 16.495470190048216
+      },
+      {
+        "round": 30,
+        "accuracy": 9.74,
+        "loss": 11.07243013381958
+      },
+      {
+        "round": 35,
+        "accuracy": 9.74,
+        "loss": 11.469336700439452
+      },
+      {
+        "round": 40,
+        "accuracy": 9.8,
+        "loss": 14.969518232345582
+      },
+      {
+        "round": 45,
+        "accuracy": 11.35,
+        "loss": 11.164783453941345
+      },
+      {
+        "round": 49,
+        "accuracy": 10.09,
+        "loss": 12.010062956809998
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 3.24,
+      "total_runtime_s": 2110.87
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 92.36,
+    "final_loss": 0.3129,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 66.89,
+        "loss": 1.8579553544521332
+      },
+      {
+        "round": 5,
+        "accuracy": 87.86,
+        "loss": 0.40635348968207835
+      },
+      {
+        "round": 10,
+        "accuracy": 88.26,
+        "loss": 0.47117642406374216
+      },
+      {
+        "round": 15,
+        "accuracy": 90.49,
+        "loss": 0.3063476052135229
+      },
+      {
+        "round": 20,
+        "accuracy": 90.37,
+        "loss": 0.374551510065794
+      },
+      {
+        "round": 25,
+        "accuracy": 92.42,
+        "loss": 0.2886649382300675
+      },
+      {
+        "round": 30,
+        "accuracy": 90.31,
+        "loss": 0.4079916699789464
+      },
+      {
+        "round": 35,
+        "accuracy": 91.9,
+        "loss": 0.3377373077441007
+      },
+      {
+        "round": 40,
+        "accuracy": 92.2,
+        "loss": 0.3380156746134162
+      },
+      {
+        "round": 45,
+        "accuracy": 93.12,
+        "loss": 0.25019125659018754
+      },
+      {
+        "round": 49,
+        "accuracy": 92.36,
+        "loss": 0.3129267833195627
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.7,
+      "total_runtime_s": 2116.31
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 95.69,
+    "final_loss": 0.1781,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 66.97,
+        "loss": 1.8753179907798767
+      },
+      {
+        "round": 5,
+        "accuracy": 97.29,
+        "loss": 0.09629116880678339
+      },
+      {
+        "round": 10,
+        "accuracy": 92.02,
+        "loss": 0.26284628910943864
+      },
+      {
+        "round": 15,
+        "accuracy": 97.79,
+        "loss": 0.08169498059869511
+      },
+      {
+        "round": 20,
+        "accuracy": 97.81,
+        "loss": 0.08464102875186655
+      },
+      {
+        "round": 25,
+        "accuracy": 97.71,
+        "loss": 0.09213975706934434
+      },
+      {
+        "round": 30,
+        "accuracy": 94.68,
+        "loss": 0.21395453552249818
+      },
+      {
+        "round": 35,
+        "accuracy": 97.95,
+        "loss": 0.08376429898239621
+      },
+      {
+        "round": 40,
+        "accuracy": 97.7,
+        "loss": 0.09468876549490232
+      },
+      {
+        "round": 45,
+        "accuracy": 97.8,
+        "loss": 0.10277349581517115
+      },
+      {
+        "round": 49,
+        "accuracy": 95.69,
+        "loss": 0.17813264175783844
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.74,
+      "total_runtime_s": 2113.05
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 97.45,
+    "final_loss": 0.1114,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 70.36,
+        "loss": 1.458187961578369
+      },
+      {
+        "round": 5,
+        "accuracy": 86.3,
+        "loss": 0.41765571758151054
+      },
+      {
+        "round": 10,
+        "accuracy": 94.88,
+        "loss": 0.15415360466577113
+      },
+      {
+        "round": 15,
+        "accuracy": 96.21,
+        "loss": 0.12981503426562996
+      },
+      {
+        "round": 20,
+        "accuracy": 93.16,
+        "loss": 0.22809707853011787
+      },
+      {
+        "round": 25,
+        "accuracy": 96.58,
+        "loss": 0.1268722328473814
+      },
+      {
+        "round": 30,
+        "accuracy": 96.74,
+        "loss": 0.12248502142028883
+      },
+      {
+        "round": 35,
+        "accuracy": 97.32,
+        "loss": 0.09532516394392587
+      },
+      {
+        "round": 40,
+        "accuracy": 97.55,
+        "loss": 0.09296304841409438
+      },
+      {
+        "round": 45,
+        "accuracy": 96.1,
+        "loss": 0.14825001723365858
+      },
+      {
+        "round": 49,
+        "accuracy": 97.45,
+        "loss": 0.11139365124327014
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.64,
+      "total_runtime_s": 2121.43
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 97.76,
+    "final_loss": 0.0845,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 67.73,
+        "loss": 1.6576881289482117
+      },
+      {
+        "round": 5,
+        "accuracy": 91.37,
+        "loss": 0.28107216423377396
+      },
+      {
+        "round": 10,
+        "accuracy": 97.4,
+        "loss": 0.08226485403138213
+      },
+      {
+        "round": 15,
+        "accuracy": 97.4,
+        "loss": 0.09059909046045504
+      },
+      {
+        "round": 20,
+        "accuracy": 96.21,
+        "loss": 0.12887843803036958
+      },
+      {
+        "round": 25,
+        "accuracy": 96.29,
+        "loss": 0.1318843221568386
+      },
+      {
+        "round": 30,
+        "accuracy": 95.72,
+        "loss": 0.1791501964791678
+      },
+      {
+        "round": 35,
+        "accuracy": 96.07,
+        "loss": 0.1525051447591977
+      },
+      {
+        "round": 40,
+        "accuracy": 95.28,
+        "loss": 0.16738531538285314
+      },
+      {
+        "round": 45,
+        "accuracy": 95.2,
+        "loss": 0.19187348614941585
+      },
+      {
+        "round": 49,
+        "accuracy": 97.76,
+        "loss": 0.08449766517805983
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.92,
+      "total_runtime_s": 2117.92
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.26,
+    "final_loss": 0.022,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 95.63,
+        "loss": 0.2979312425479293
+      },
+      {
+        "round": 5,
+        "accuracy": 98.69,
+        "loss": 0.03674685455735016
+      },
+      {
+        "round": 10,
+        "accuracy": 98.99,
+        "loss": 0.027184531649618295
+      },
+      {
+        "round": 15,
+        "accuracy": 99.06,
+        "loss": 0.02551989952507938
+      },
+      {
+        "round": 20,
+        "accuracy": 99.19,
+        "loss": 0.023272771754272982
+      },
+      {
+        "round": 25,
+        "accuracy": 99.23,
+        "loss": 0.02224495352293161
+      },
+      {
+        "round": 30,
+        "accuracy": 99.2,
+        "loss": 0.023271129653176105
+      },
+      {
+        "round": 35,
+        "accuracy": 99.24,
+        "loss": 0.022722707061484472
+      },
+      {
+        "round": 40,
+        "accuracy": 99.3,
+        "loss": 0.022855380399039404
+      },
+      {
+        "round": 45,
+        "accuracy": 99.31,
+        "loss": 0.02256366097922182
+      },
+      {
+        "round": 49,
+        "accuracy": 99.26,
+        "loss": 0.02203288585082248
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 9.94,
+      "total_runtime_s": 2113.18
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.26,
+    "final_loss": 0.0213,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 92.96,
+        "loss": 0.2922254027798772
+      },
+      {
+        "round": 5,
+        "accuracy": 98.71,
+        "loss": 0.03707182372199895
+      },
+      {
+        "round": 10,
+        "accuracy": 98.96,
+        "loss": 0.02845835249245283
+      },
+      {
+        "round": 15,
+        "accuracy": 99.08,
+        "loss": 0.023345036270711716
+      },
+      {
+        "round": 20,
+        "accuracy": 99.11,
+        "loss": 0.022726985685380896
+      },
+      {
+        "round": 25,
+        "accuracy": 99.2,
+        "loss": 0.02155297819142561
+      },
+      {
+        "round": 30,
+        "accuracy": 99.21,
+        "loss": 0.02070295138812526
+      },
+      {
+        "round": 35,
+        "accuracy": 99.31,
+        "loss": 0.02078157367913036
+      },
+      {
+        "round": 40,
+        "accuracy": 99.25,
+        "loss": 0.021044125254923073
+      },
+      {
+        "round": 45,
+        "accuracy": 99.32,
+        "loss": 0.021008661506982662
+      },
+      {
+        "round": 49,
+        "accuracy": 99.26,
+        "loss": 0.021325634978276754
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 9.92,
+      "total_runtime_s": 2119.94
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.31,
+    "final_loss": 0.0204,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 92.11,
+        "loss": 0.30805858299136163
+      },
+      {
+        "round": 5,
+        "accuracy": 98.76,
+        "loss": 0.03400648076785728
+      },
+      {
+        "round": 10,
+        "accuracy": 99.08,
+        "loss": 0.02582494649641376
+      },
+      {
+        "round": 15,
+        "accuracy": 99.24,
+        "loss": 0.022076387122433518
+      },
+      {
+        "round": 20,
+        "accuracy": 99.26,
+        "loss": 0.02204850418311253
+      },
+      {
+        "round": 25,
+        "accuracy": 99.33,
+        "loss": 0.02045209290213279
+      },
+      {
+        "round": 30,
+        "accuracy": 99.35,
+        "loss": 0.01956803669402234
+      },
+      {
+        "round": 35,
+        "accuracy": 99.37,
+        "loss": 0.01956909496207686
+      },
+      {
+        "round": 40,
+        "accuracy": 99.34,
+        "loss": 0.019117316465462865
+      },
+      {
+        "round": 45,
+        "accuracy": 99.39,
+        "loss": 0.018503515665105396
+      },
+      {
+        "round": 49,
+        "accuracy": 99.31,
+        "loss": 0.02041468764144838
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 9.7,
+      "total_runtime_s": 2117.67
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.28,
+    "final_loss": 0.0234,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 93.97,
+        "loss": 0.18868537107482553
+      },
+      {
+        "round": 5,
+        "accuracy": 98.86,
+        "loss": 0.03188471701396338
+      },
+      {
+        "round": 10,
+        "accuracy": 99.03,
+        "loss": 0.02649302881309268
+      },
+      {
+        "round": 15,
+        "accuracy": 99.14,
+        "loss": 0.02604755502163698
+      },
+      {
+        "round": 20,
+        "accuracy": 99.19,
+        "loss": 0.022752127383000698
+      },
+      {
+        "round": 25,
+        "accuracy": 99.27,
+        "loss": 0.023065361011185816
+      },
+      {
+        "round": 30,
+        "accuracy": 99.27,
+        "loss": 0.022195504429635093
+      },
+      {
+        "round": 35,
+        "accuracy": 99.21,
+        "loss": 0.023197132561790568
+      },
+      {
+        "round": 40,
+        "accuracy": 99.2,
+        "loss": 0.02325237149053123
+      },
+      {
+        "round": 45,
+        "accuracy": 99.29,
+        "loss": 0.0226025544341951
+      },
+      {
+        "round": 49,
+        "accuracy": 99.28,
+        "loss": 0.023415082095144157
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 10.0,
+      "total_runtime_s": 2127.3
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.17,
+    "final_loss": 0.0248,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 94.56,
+        "loss": 0.23886024821549653
+      },
+      {
+        "round": 5,
+        "accuracy": 98.78,
+        "loss": 0.03463830833716201
+      },
+      {
+        "round": 10,
+        "accuracy": 98.99,
+        "loss": 0.028756484697987618
+      },
+      {
+        "round": 15,
+        "accuracy": 99.08,
+        "loss": 0.025561263101417354
+      },
+      {
+        "round": 20,
+        "accuracy": 99.17,
+        "loss": 0.024347299234750607
+      },
+      {
+        "round": 25,
+        "accuracy": 99.18,
+        "loss": 0.024088878003294668
+      },
+      {
+        "round": 30,
+        "accuracy": 99.25,
+        "loss": 0.02289076399156329
+      },
+      {
+        "round": 35,
+        "accuracy": 99.2,
+        "loss": 0.023995516009830454
+      },
+      {
+        "round": 40,
+        "accuracy": 99.21,
+        "loss": 0.0233805001740393
+      },
+      {
+        "round": 45,
+        "accuracy": 99.22,
+        "loss": 0.02383592624090767
+      },
+      {
+        "round": 49,
+        "accuracy": 99.17,
+        "loss": 0.024837029977851442
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 9.88,
+      "total_runtime_s": 2297.88
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.27,
+    "final_loss": 0.0225,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 93.98,
+        "loss": 0.2220639018341899
+      },
+      {
+        "round": 5,
+        "accuracy": 98.91,
+        "loss": 0.03268266613667947
+      },
+      {
+        "round": 10,
+        "accuracy": 99.03,
+        "loss": 0.026064380886691652
+      },
+      {
+        "round": 15,
+        "accuracy": 99.17,
+        "loss": 0.0238670711712075
+      },
+      {
+        "round": 20,
+        "accuracy": 99.16,
+        "loss": 0.022519638883136395
+      },
+      {
+        "round": 25,
+        "accuracy": 99.19,
+        "loss": 0.023175561237212604
+      },
+      {
+        "round": 30,
+        "accuracy": 99.24,
+        "loss": 0.02227464160461068
+      },
+      {
+        "round": 35,
+        "accuracy": 99.24,
+        "loss": 0.02275170136780389
+      },
+      {
+        "round": 40,
+        "accuracy": 99.26,
+        "loss": 0.022221437078857775
+      },
+      {
+        "round": 45,
+        "accuracy": 99.29,
+        "loss": 0.022194533893690506
+      },
+      {
+        "round": 49,
+        "accuracy": 99.27,
+        "loss": 0.022495351023883357
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 9.92,
+      "total_runtime_s": 2778.51
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.29,
+    "final_loss": 0.021,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 93.65,
+        "loss": 0.20456231785938145
+      },
+      {
+        "round": 5,
+        "accuracy": 98.89,
+        "loss": 0.02983167570309888
+      },
+      {
+        "round": 10,
+        "accuracy": 99.09,
+        "loss": 0.023648850471181503
+      },
+      {
+        "round": 15,
+        "accuracy": 99.17,
+        "loss": 0.021553438362252562
+      },
+      {
+        "round": 20,
+        "accuracy": 99.27,
+        "loss": 0.02066173441448882
+      },
+      {
+        "round": 25,
+        "accuracy": 99.22,
+        "loss": 0.02259913377763496
+      },
+      {
+        "round": 30,
+        "accuracy": 99.27,
+        "loss": 0.02097151173514362
+      },
+      {
+        "round": 35,
+        "accuracy": 99.34,
+        "loss": 0.020258800190734404
+      },
+      {
+        "round": 40,
+        "accuracy": 99.31,
+        "loss": 0.01967748421902087
+      },
+      {
+        "round": 45,
+        "accuracy": 99.34,
+        "loss": 0.01994369514795835
+      },
+      {
+        "round": 49,
+        "accuracy": 99.29,
+        "loss": 0.021017611934476578
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 9.96,
+      "total_runtime_s": 2258.2
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.26,
+    "final_loss": 0.0236,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 94.22,
+        "loss": 0.19302113510202618
+      },
+      {
+        "round": 5,
+        "accuracy": 98.9,
+        "loss": 0.03063116617340711
+      },
+      {
+        "round": 10,
+        "accuracy": 99.04,
+        "loss": 0.025781516817369267
+      },
+      {
+        "round": 15,
+        "accuracy": 99.12,
+        "loss": 0.02383257354545094
+      },
+      {
+        "round": 20,
+        "accuracy": 99.1,
+        "loss": 0.025254591489374433
+      },
+      {
+        "round": 25,
+        "accuracy": 99.23,
+        "loss": 0.022620910291223595
+      },
+      {
+        "round": 30,
+        "accuracy": 99.21,
+        "loss": 0.02233514110735655
+      },
+      {
+        "round": 35,
+        "accuracy": 99.33,
+        "loss": 0.02085905082986983
+      },
+      {
+        "round": 40,
+        "accuracy": 99.26,
+        "loss": 0.02301309144590107
+      },
+      {
+        "round": 45,
+        "accuracy": 99.26,
+        "loss": 0.023177568144353698
+      },
+      {
+        "round": 49,
+        "accuracy": 99.26,
+        "loss": 0.023604632184851936
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 10.0,
+      "total_runtime_s": 2115.77
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.3,
+    "final_loss": 0.0212,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 63.33,
+        "loss": 1.9852898091077804
+      },
+      {
+        "round": 5,
+        "accuracy": 97.87,
+        "loss": 0.06619522097753361
+      },
+      {
+        "round": 10,
+        "accuracy": 98.8,
+        "loss": 0.03549058845601394
+      },
+      {
+        "round": 15,
+        "accuracy": 98.99,
+        "loss": 0.028426713894259593
+      },
+      {
+        "round": 20,
+        "accuracy": 99.1,
+        "loss": 0.02454099387086899
+      },
+      {
+        "round": 25,
+        "accuracy": 99.13,
+        "loss": 0.02432239841214141
+      },
+      {
+        "round": 30,
+        "accuracy": 99.29,
+        "loss": 0.02147683244907057
+      },
+      {
+        "round": 35,
+        "accuracy": 99.22,
+        "loss": 0.02240886838078495
+      },
+      {
+        "round": 40,
+        "accuracy": 99.27,
+        "loss": 0.020776344278669968
+      },
+      {
+        "round": 45,
+        "accuracy": 99.26,
+        "loss": 0.021733029376059677
+      },
+      {
+        "round": 49,
+        "accuracy": 99.3,
+        "loss": 0.021172015743235306
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.64,
+      "total_runtime_s": 2109.46
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.37,
+    "final_loss": 0.0197,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 87.22,
+        "loss": 1.944922962784767
+      },
+      {
+        "round": 5,
+        "accuracy": 98.07,
+        "loss": 0.062408249819418414
+      },
+      {
+        "round": 10,
+        "accuracy": 98.82,
+        "loss": 0.033195229447301244
+      },
+      {
+        "round": 15,
+        "accuracy": 99.01,
+        "loss": 0.027677248314103054
+      },
+      {
+        "round": 20,
+        "accuracy": 99.16,
+        "loss": 0.023574281996616264
+      },
+      {
+        "round": 25,
+        "accuracy": 99.22,
+        "loss": 0.02257253445372953
+      },
+      {
+        "round": 30,
+        "accuracy": 99.29,
+        "loss": 0.021174556864934857
+      },
+      {
+        "round": 35,
+        "accuracy": 99.29,
+        "loss": 0.019753719911705048
+      },
+      {
+        "round": 40,
+        "accuracy": 99.32,
+        "loss": 0.019588411358932946
+      },
+      {
+        "round": 45,
+        "accuracy": 99.37,
+        "loss": 0.0200692725093063
+      },
+      {
+        "round": 49,
+        "accuracy": 99.37,
+        "loss": 0.019727492888182496
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.78,
+      "total_runtime_s": 2115.92
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.26,
+    "final_loss": 0.0212,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 85.56,
+        "loss": 2.017425698041916
+      },
+      {
+        "round": 5,
+        "accuracy": 97.84,
+        "loss": 0.07027370764408261
+      },
+      {
+        "round": 10,
+        "accuracy": 98.68,
+        "loss": 0.03781959278130671
+      },
+      {
+        "round": 15,
+        "accuracy": 99.0,
+        "loss": 0.028821617872017667
+      },
+      {
+        "round": 20,
+        "accuracy": 99.06,
+        "loss": 0.025674129176240967
+      },
+      {
+        "round": 25,
+        "accuracy": 99.17,
+        "loss": 0.023790628330152684
+      },
+      {
+        "round": 30,
+        "accuracy": 99.2,
+        "loss": 0.02272748429236344
+      },
+      {
+        "round": 35,
+        "accuracy": 99.26,
+        "loss": 0.020980161682246035
+      },
+      {
+        "round": 40,
+        "accuracy": 99.29,
+        "loss": 0.021325473148976926
+      },
+      {
+        "round": 45,
+        "accuracy": 99.25,
+        "loss": 0.02201362976309156
+      },
+      {
+        "round": 49,
+        "accuracy": 99.26,
+        "loss": 0.02117875204103257
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.6,
+      "total_runtime_s": 2119.05
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.33,
+    "final_loss": 0.0223,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 86.27,
+        "loss": 1.8803048491477967
+      },
+      {
+        "round": 5,
+        "accuracy": 97.83,
+        "loss": 0.07084648804739117
+      },
+      {
+        "round": 10,
+        "accuracy": 98.61,
+        "loss": 0.03900946266949177
+      },
+      {
+        "round": 15,
+        "accuracy": 98.9,
+        "loss": 0.029915057644757326
+      },
+      {
+        "round": 20,
+        "accuracy": 99.09,
+        "loss": 0.026459092387267447
+      },
+      {
+        "round": 25,
+        "accuracy": 99.12,
+        "loss": 0.024607049362839462
+      },
+      {
+        "round": 30,
+        "accuracy": 99.14,
+        "loss": 0.02390237943550346
+      },
+      {
+        "round": 35,
+        "accuracy": 99.23,
+        "loss": 0.023071226275328628
+      },
+      {
+        "round": 40,
+        "accuracy": 99.25,
+        "loss": 0.023156629044569853
+      },
+      {
+        "round": 45,
+        "accuracy": 99.29,
+        "loss": 0.021935150149261062
+      },
+      {
+        "round": 49,
+        "accuracy": 99.33,
+        "loss": 0.022250250776073698
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.68,
+      "total_runtime_s": 2122.04
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 94.98,
+    "final_loss": 0.182,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 83.68,
+        "loss": 0.4297139197587967
+      },
+      {
+        "round": 5,
+        "accuracy": 97.7,
+        "loss": 0.06852450494770893
+      },
+      {
+        "round": 10,
+        "accuracy": 87.93,
+        "loss": 0.4987749514169991
+      },
+      {
+        "round": 15,
+        "accuracy": 94.01,
+        "loss": 0.20411272204946726
+      },
+      {
+        "round": 20,
+        "accuracy": 94.71,
+        "loss": 0.17936338661238552
+      },
+      {
+        "round": 25,
+        "accuracy": 94.96,
+        "loss": 0.17719786375528201
+      },
+      {
+        "round": 30,
+        "accuracy": 94.37,
+        "loss": 0.21708490732125937
+      },
+      {
+        "round": 35,
+        "accuracy": 94.63,
+        "loss": 0.20833300217054784
+      },
+      {
+        "round": 40,
+        "accuracy": 93.42,
+        "loss": 0.2645104547031224
+      },
+      {
+        "round": 45,
+        "accuracy": 93.89,
+        "loss": 0.24176771827042104
+      },
+      {
+        "round": 49,
+        "accuracy": 94.98,
+        "loss": 0.1820008968701586
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 47,
+        "trimmed_mean": 3
+      },
+      "avg_flagged_per_round": 9.82,
+      "total_runtime_s": 2134.51
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 95.45,
+    "final_loss": 0.1693,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 66.04,
+        "loss": 1.8447348922491074
+      },
+      {
+        "round": 5,
+        "accuracy": 93.95,
+        "loss": 0.19143146753776819
+      },
+      {
+        "round": 10,
+        "accuracy": 94.47,
+        "loss": 0.16517885546199979
+      },
+      {
+        "round": 15,
+        "accuracy": 95.12,
+        "loss": 0.15556484886910765
+      },
+      {
+        "round": 20,
+        "accuracy": 95.77,
+        "loss": 0.14977495811181143
+      },
+      {
+        "round": 25,
+        "accuracy": 96.39,
+        "loss": 0.11902932613156736
+      },
+      {
+        "round": 30,
+        "accuracy": 95.19,
+        "loss": 0.18184230069164187
+      },
+      {
+        "round": 35,
+        "accuracy": 94.05,
+        "loss": 0.2160975991282612
+      },
+      {
+        "round": 40,
+        "accuracy": 97.27,
+        "loss": 0.08928702278790297
+      },
+      {
+        "round": 45,
+        "accuracy": 94.97,
+        "loss": 0.17907452029176057
+      },
+      {
+        "round": 49,
+        "accuracy": 95.45,
+        "loss": 0.16927895840490237
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 45,
+        "trimmed_mean": 5
+      },
+      "avg_flagged_per_round": 9.78,
+      "total_runtime_s": 2122.91
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 96.14,
+    "final_loss": 0.143,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 94.63,
+        "loss": 0.19038572078570723
+      },
+      {
+        "round": 5,
+        "accuracy": 90.66,
+        "loss": 0.28296877928078173
+      },
+      {
+        "round": 10,
+        "accuracy": 98.53,
+        "loss": 0.04465564828860806
+      },
+      {
+        "round": 15,
+        "accuracy": 93.85,
+        "loss": 0.2208287350833416
+      },
+      {
+        "round": 20,
+        "accuracy": 97.54,
+        "loss": 0.08864612820761977
+      },
+      {
+        "round": 25,
+        "accuracy": 95.64,
+        "loss": 0.15198826834966894
+      },
+      {
+        "round": 30,
+        "accuracy": 97.89,
+        "loss": 0.07864760927914176
+      },
+      {
+        "round": 35,
+        "accuracy": 98.34,
+        "loss": 0.05953159425407648
+      },
+      {
+        "round": 40,
+        "accuracy": 97.81,
+        "loss": 0.08225854640622857
+      },
+      {
+        "round": 45,
+        "accuracy": 96.08,
+        "loss": 0.14542411972215633
+      },
+      {
+        "round": 49,
+        "accuracy": 96.14,
+        "loss": 0.1430196796092787
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 4,
+        "krum": 46
+      },
+      "avg_flagged_per_round": 9.78,
+      "total_runtime_s": 2123.17
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.GRADIENT_SCALING",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 97.06,
+    "final_loss": 0.1169,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 93.59,
+        "loss": 0.19743197618518024
+      },
+      {
+        "round": 5,
+        "accuracy": 92.33,
+        "loss": 0.2579436365980655
+      },
+      {
+        "round": 10,
+        "accuracy": 94.24,
+        "loss": 0.1945950213819742
+      },
+      {
+        "round": 15,
+        "accuracy": 95.59,
+        "loss": 0.15940033509396018
+      },
+      {
+        "round": 20,
+        "accuracy": 97.64,
+        "loss": 0.0805154177302029
+      },
+      {
+        "round": 25,
+        "accuracy": 97.17,
+        "loss": 0.10236921291798354
+      },
+      {
+        "round": 30,
+        "accuracy": 96.34,
+        "loss": 0.13989587066462264
+      },
+      {
+        "round": 35,
+        "accuracy": 96.81,
+        "loss": 0.12112273703969549
+      },
+      {
+        "round": 40,
+        "accuracy": 97.61,
+        "loss": 0.07327954118081834
+      },
+      {
+        "round": 45,
+        "accuracy": 98.58,
+        "loss": 0.052006980970872974
+      },
+      {
+        "round": 49,
+        "accuracy": 97.06,
+        "loss": 0.11688481447126833
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 47,
+        "trimmed_mean": 3
+      },
+      "avg_flagged_per_round": 9.88,
+      "total_runtime_s": 2122.99
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 98.66,
+    "final_loss": 0.0465,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 95.03,
+        "loss": 0.31827739850705256
+      },
+      {
+        "round": 5,
+        "accuracy": 96.61,
+        "loss": 0.10017056914512068
+      },
+      {
+        "round": 10,
+        "accuracy": 97.48,
+        "loss": 0.07918901104712858
+      },
+      {
+        "round": 15,
+        "accuracy": 98.82,
+        "loss": 0.03597845157928532
+      },
+      {
+        "round": 20,
+        "accuracy": 98.65,
+        "loss": 0.045142082303573264
+      },
+      {
+        "round": 25,
+        "accuracy": 99.04,
+        "loss": 0.03324209120910382
+      },
+      {
+        "round": 30,
+        "accuracy": 98.86,
+        "loss": 0.03855174300906583
+      },
+      {
+        "round": 35,
+        "accuracy": 98.81,
+        "loss": 0.04266831866116263
+      },
+      {
+        "round": 40,
+        "accuracy": 99.06,
+        "loss": 0.030904360488875682
+      },
+      {
+        "round": 45,
+        "accuracy": 98.38,
+        "loss": 0.05543420636022347
+      },
+      {
+        "round": 49,
+        "accuracy": 98.66,
+        "loss": 0.046544423935256415
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 9.92,
+      "total_runtime_s": 2112.95
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 89.21,
+    "final_loss": 0.5391,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 85.68,
+        "loss": 1.8119624249637127
+      },
+      {
+        "round": 5,
+        "accuracy": 62.0,
+        "loss": 1.2711917757987976
+      },
+      {
+        "round": 10,
+        "accuracy": 82.15,
+        "loss": 1.0063097834587098
+      },
+      {
+        "round": 15,
+        "accuracy": 75.0,
+        "loss": 1.0068072646856308
+      },
+      {
+        "round": 20,
+        "accuracy": 78.84,
+        "loss": 1.9344912610948086
+      },
+      {
+        "round": 25,
+        "accuracy": 93.9,
+        "loss": 0.22296244646422564
+      },
+      {
+        "round": 30,
+        "accuracy": 94.17,
+        "loss": 0.3457678698003292
+      },
+      {
+        "round": 35,
+        "accuracy": 85.24,
+        "loss": 0.4346404980868101
+      },
+      {
+        "round": 40,
+        "accuracy": 95.98,
+        "loss": 0.1595402360195294
+      },
+      {
+        "round": 45,
+        "accuracy": 82.86,
+        "loss": 0.6380345746874809
+      },
+      {
+        "round": 49,
+        "accuracy": 89.21,
+        "loss": 0.5391151595860719
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 8.68,
+      "total_runtime_s": 2112.84
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 11.35,
+    "final_loss": 10.0558,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 93.5,
+        "loss": 1.7025071612590181
+      },
+      {
+        "round": 5,
+        "accuracy": 10.11,
+        "loss": 3.784236890077591
+      },
+      {
+        "round": 10,
+        "accuracy": 9.74,
+        "loss": 8.276614332199097
+      },
+      {
+        "round": 15,
+        "accuracy": 10.09,
+        "loss": 7.089009189605713
+      },
+      {
+        "round": 20,
+        "accuracy": 9.58,
+        "loss": 8.496189165115357
+      },
+      {
+        "round": 25,
+        "accuracy": 11.35,
+        "loss": 9.04373483657837
+      },
+      {
+        "round": 30,
+        "accuracy": 10.32,
+        "loss": 8.212744855880738
+      },
+      {
+        "round": 35,
+        "accuracy": 10.32,
+        "loss": 7.501081275939941
+      },
+      {
+        "round": 40,
+        "accuracy": 8.92,
+        "loss": 9.66375458240509
+      },
+      {
+        "round": 45,
+        "accuracy": 9.74,
+        "loss": 7.027499568462372
+      },
+      {
+        "round": 49,
+        "accuracy": 11.35,
+        "loss": 10.055809879302979
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 3.3,
+      "total_runtime_s": 2118.12
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 9.82,
+    "final_loss": 12.6574,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 82.37,
+        "loss": 9.41431167125702
+      },
+      {
+        "round": 5,
+        "accuracy": 11.35,
+        "loss": 2.9449359118938445
+      },
+      {
+        "round": 10,
+        "accuracy": 11.35,
+        "loss": 12.295329356193543
+      },
+      {
+        "round": 15,
+        "accuracy": 9.58,
+        "loss": 13.020063352584838
+      },
+      {
+        "round": 20,
+        "accuracy": 11.35,
+        "loss": 16.161111617088316
+      },
+      {
+        "round": 25,
+        "accuracy": 10.1,
+        "loss": 13.852981805801392
+      },
+      {
+        "round": 30,
+        "accuracy": 11.35,
+        "loss": 12.312700319290162
+      },
+      {
+        "round": 35,
+        "accuracy": 10.1,
+        "loss": 10.309461641311646
+      },
+      {
+        "round": 40,
+        "accuracy": 8.92,
+        "loss": 10.512596035003662
+      },
+      {
+        "round": 45,
+        "accuracy": 10.32,
+        "loss": 7.546207427978516
+      },
+      {
+        "round": 49,
+        "accuracy": 9.82,
+        "loss": 12.657399463653565
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 2.46,
+      "total_runtime_s": 2113.88
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 92.08,
+    "final_loss": 0.3644,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 90.07,
+        "loss": 0.3061184437945485
+      },
+      {
+        "round": 5,
+        "accuracy": 85.28,
+        "loss": 0.5849174488335848
+      },
+      {
+        "round": 10,
+        "accuracy": 89.38,
+        "loss": 0.44279442690312865
+      },
+      {
+        "round": 15,
+        "accuracy": 88.4,
+        "loss": 0.6344824202358723
+      },
+      {
+        "round": 20,
+        "accuracy": 91.48,
+        "loss": 0.31874050442129376
+      },
+      {
+        "round": 25,
+        "accuracy": 92.62,
+        "loss": 0.29361093253828585
+      },
+      {
+        "round": 30,
+        "accuracy": 94.36,
+        "loss": 0.19621047202963382
+      },
+      {
+        "round": 35,
+        "accuracy": 93.02,
+        "loss": 0.289707124279812
+      },
+      {
+        "round": 40,
+        "accuracy": 92.64,
+        "loss": 0.30626222138525916
+      },
+      {
+        "round": 45,
+        "accuracy": 92.24,
+        "loss": 0.3550406341440976
+      },
+      {
+        "round": 49,
+        "accuracy": 92.08,
+        "loss": 0.3644306788686663
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.48,
+      "total_runtime_s": 2113.46
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 97.39,
+    "final_loss": 0.0803,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 67.55,
+        "loss": 1.8362071484327316
+      },
+      {
+        "round": 5,
+        "accuracy": 82.63,
+        "loss": 0.6069706249982119
+      },
+      {
+        "round": 10,
+        "accuracy": 91.36,
+        "loss": 0.3072374756447971
+      },
+      {
+        "round": 15,
+        "accuracy": 94.59,
+        "loss": 0.19591200142167509
+      },
+      {
+        "round": 20,
+        "accuracy": 95.03,
+        "loss": 0.16930998854804785
+      },
+      {
+        "round": 25,
+        "accuracy": 94.96,
+        "loss": 0.19463275948073716
+      },
+      {
+        "round": 30,
+        "accuracy": 95.12,
+        "loss": 0.18786070323549212
+      },
+      {
+        "round": 35,
+        "accuracy": 94.53,
+        "loss": 0.22958771320991217
+      },
+      {
+        "round": 40,
+        "accuracy": 93.61,
+        "loss": 0.2661686806473881
+      },
+      {
+        "round": 45,
+        "accuracy": 93.27,
+        "loss": 0.31084711686708033
+      },
+      {
+        "round": 49,
+        "accuracy": 97.39,
+        "loss": 0.08031731232767925
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.76,
+      "total_runtime_s": 2114.06
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 97.61,
+    "final_loss": 0.1164,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 67.28,
+        "loss": 1.8158845245838164
+      },
+      {
+        "round": 5,
+        "accuracy": 86.56,
+        "loss": 0.4668687177821994
+      },
+      {
+        "round": 10,
+        "accuracy": 97.28,
+        "loss": 0.08632849261703086
+      },
+      {
+        "round": 15,
+        "accuracy": 92.43,
+        "loss": 0.29584282101131976
+      },
+      {
+        "round": 20,
+        "accuracy": 97.55,
+        "loss": 0.09228706136691471
+      },
+      {
+        "round": 25,
+        "accuracy": 97.61,
+        "loss": 0.09443078182484896
+      },
+      {
+        "round": 30,
+        "accuracy": 97.64,
+        "loss": 0.09887802819139324
+      },
+      {
+        "round": 35,
+        "accuracy": 97.56,
+        "loss": 0.09985075912863976
+      },
+      {
+        "round": 40,
+        "accuracy": 97.4,
+        "loss": 0.11229285219669691
+      },
+      {
+        "round": 45,
+        "accuracy": 97.88,
+        "loss": 0.09218294798952228
+      },
+      {
+        "round": 49,
+        "accuracy": 97.61,
+        "loss": 0.11644904645826841
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.88,
+      "total_runtime_s": 2114.3
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 96.9,
+    "final_loss": 0.1165,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 83.67,
+        "loss": 0.41983185708522797
+      },
+      {
+        "round": 5,
+        "accuracy": 93.05,
+        "loss": 0.21627115160226823
+      },
+      {
+        "round": 10,
+        "accuracy": 96.9,
+        "loss": 0.11346700573922135
+      },
+      {
+        "round": 15,
+        "accuracy": 96.67,
+        "loss": 0.12322644211817532
+      },
+      {
+        "round": 20,
+        "accuracy": 93.54,
+        "loss": 0.21402053979691119
+      },
+      {
+        "round": 25,
+        "accuracy": 96.47,
+        "loss": 0.11745326110394672
+      },
+      {
+        "round": 30,
+        "accuracy": 97.45,
+        "loss": 0.09378048176586162
+      },
+      {
+        "round": 35,
+        "accuracy": 96.02,
+        "loss": 0.14068751914310268
+      },
+      {
+        "round": 40,
+        "accuracy": 98.07,
+        "loss": 0.0866653075281647
+      },
+      {
+        "round": 45,
+        "accuracy": 97.25,
+        "loss": 0.11489383226726205
+      },
+      {
+        "round": 49,
+        "accuracy": 96.9,
+        "loss": 0.11653590005298611
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 9.88,
+      "total_runtime_s": 2114.27
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.31,
+    "final_loss": 0.0213,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 93.68,
+        "loss": 0.3217286143451929
+      },
+      {
+        "round": 5,
+        "accuracy": 98.71,
+        "loss": 0.0355188492419984
+      },
+      {
+        "round": 10,
+        "accuracy": 99.01,
+        "loss": 0.02853206697745918
+      },
+      {
+        "round": 15,
+        "accuracy": 99.11,
+        "loss": 0.024708471572421332
+      },
+      {
+        "round": 20,
+        "accuracy": 99.16,
+        "loss": 0.02354369155286804
+      },
+      {
+        "round": 25,
+        "accuracy": 99.19,
+        "loss": 0.02217731338860176
+      },
+      {
+        "round": 30,
+        "accuracy": 99.27,
+        "loss": 0.02165884737887609
+      },
+      {
+        "round": 35,
+        "accuracy": 99.29,
+        "loss": 0.021935334681029418
+      },
+      {
+        "round": 40,
+        "accuracy": 99.23,
+        "loss": 0.021228007703541607
+      },
+      {
+        "round": 45,
+        "accuracy": 99.24,
+        "loss": 0.02176200908077135
+      },
+      {
+        "round": 49,
+        "accuracy": 99.31,
+        "loss": 0.021290828128667273
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 9.92,
+      "total_runtime_s": 2115.02
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.29,
+    "final_loss": 0.0214,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 95.2,
+        "loss": 0.2336191263049841
+      },
+      {
+        "round": 5,
+        "accuracy": 98.87,
+        "loss": 0.03160850498570653
+      },
+      {
+        "round": 10,
+        "accuracy": 99.05,
+        "loss": 0.02558228363559465
+      },
+      {
+        "round": 15,
+        "accuracy": 99.15,
+        "loss": 0.024135736020525655
+      },
+      {
+        "round": 20,
+        "accuracy": 99.21,
+        "loss": 0.022147608499153648
+      },
+      {
+        "round": 25,
+        "accuracy": 99.25,
+        "loss": 0.021005700684008845
+      },
+      {
+        "round": 30,
+        "accuracy": 99.26,
+        "loss": 0.021626873040838747
+      },
+      {
+        "round": 35,
+        "accuracy": 99.28,
+        "loss": 0.021651447486078723
+      },
+      {
+        "round": 40,
+        "accuracy": 99.29,
+        "loss": 0.02092983464332292
+      },
+      {
+        "round": 45,
+        "accuracy": 99.31,
+        "loss": 0.020557859517424504
+      },
+      {
+        "round": 49,
+        "accuracy": 99.29,
+        "loss": 0.021386765187207855
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 10.0,
+      "total_runtime_s": 2110.71
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.31,
+    "final_loss": 0.024,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 89.92,
+        "loss": 0.2817006794735789
+      },
+      {
+        "round": 5,
+        "accuracy": 98.76,
+        "loss": 0.03614093530850369
+      },
+      {
+        "round": 10,
+        "accuracy": 99.03,
+        "loss": 0.030058408572494956
+      },
+      {
+        "round": 15,
+        "accuracy": 99.24,
+        "loss": 0.024756667351857685
+      },
+      {
+        "round": 20,
+        "accuracy": 99.25,
+        "loss": 0.025805968475810914
+      },
+      {
+        "round": 25,
+        "accuracy": 99.27,
+        "loss": 0.023840304645818832
+      },
+      {
+        "round": 30,
+        "accuracy": 99.27,
+        "loss": 0.025001013735362676
+      },
+      {
+        "round": 35,
+        "accuracy": 99.3,
+        "loss": 0.02492058495400897
+      },
+      {
+        "round": 40,
+        "accuracy": 99.31,
+        "loss": 0.022754748233614917
+      },
+      {
+        "round": 45,
+        "accuracy": 99.29,
+        "loss": 0.02404259276246421
+      },
+      {
+        "round": 49,
+        "accuracy": 99.31,
+        "loss": 0.023983897240239572
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 9.96,
+      "total_runtime_s": 2106.91
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "trimmed_mean",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.23,
+    "final_loss": 0.0224,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 87.31,
+        "loss": 0.30095408894121645
+      },
+      {
+        "round": 5,
+        "accuracy": 98.79,
+        "loss": 0.033273901172833575
+      },
+      {
+        "round": 10,
+        "accuracy": 99.0,
+        "loss": 0.02714365835336139
+      },
+      {
+        "round": 15,
+        "accuracy": 99.11,
+        "loss": 0.024270412237547133
+      },
+      {
+        "round": 20,
+        "accuracy": 99.24,
+        "loss": 0.022894482655101456
+      },
+      {
+        "round": 25,
+        "accuracy": 99.25,
+        "loss": 0.021696062720093324
+      },
+      {
+        "round": 30,
+        "accuracy": 99.31,
+        "loss": 0.021104366581130306
+      },
+      {
+        "round": 35,
+        "accuracy": 99.26,
+        "loss": 0.021743206634732816
+      },
+      {
+        "round": 40,
+        "accuracy": 99.3,
+        "loss": 0.021053616143410635
+      },
+      {
+        "round": 45,
+        "accuracy": 99.28,
+        "loss": 0.022006548991851105
+      },
+      {
+        "round": 49,
+        "accuracy": 99.23,
+        "loss": 0.02243736593894141
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 50
+      },
+      "avg_flagged_per_round": 9.88,
+      "total_runtime_s": 2114.43
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.22,
+    "final_loss": 0.0249,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 95.29,
+        "loss": 0.19445078102871777
+      },
+      {
+        "round": 5,
+        "accuracy": 98.88,
+        "loss": 0.0345253329098341
+      },
+      {
+        "round": 10,
+        "accuracy": 99.11,
+        "loss": 0.026538492743748067
+      },
+      {
+        "round": 15,
+        "accuracy": 99.14,
+        "loss": 0.023579923657871406
+      },
+      {
+        "round": 20,
+        "accuracy": 99.2,
+        "loss": 0.02278788858088774
+      },
+      {
+        "round": 25,
+        "accuracy": 99.23,
+        "loss": 0.022382209785666872
+      },
+      {
+        "round": 30,
+        "accuracy": 99.19,
+        "loss": 0.023013139357749422
+      },
+      {
+        "round": 35,
+        "accuracy": 99.22,
+        "loss": 0.02319271939062446
+      },
+      {
+        "round": 40,
+        "accuracy": 99.26,
+        "loss": 0.023813766264635206
+      },
+      {
+        "round": 45,
+        "accuracy": 99.28,
+        "loss": 0.02297562258321193
+      },
+      {
+        "round": 49,
+        "accuracy": 99.22,
+        "loss": 0.02487808049997966
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 9.9,
+      "total_runtime_s": 2169.26
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.33,
+    "final_loss": 0.0233,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 95.35,
+        "loss": 0.2078148758970201
+      },
+      {
+        "round": 5,
+        "accuracy": 98.76,
+        "loss": 0.03259741943693371
+      },
+      {
+        "round": 10,
+        "accuracy": 99.15,
+        "loss": 0.023164447144881705
+      },
+      {
+        "round": 15,
+        "accuracy": 99.17,
+        "loss": 0.022061267417620913
+      },
+      {
+        "round": 20,
+        "accuracy": 99.34,
+        "loss": 0.020563037108013306
+      },
+      {
+        "round": 25,
+        "accuracy": 99.28,
+        "loss": 0.02127854889791365
+      },
+      {
+        "round": 30,
+        "accuracy": 99.33,
+        "loss": 0.020467839050229485
+      },
+      {
+        "round": 35,
+        "accuracy": 99.35,
+        "loss": 0.021050437456460715
+      },
+      {
+        "round": 40,
+        "accuracy": 99.36,
+        "loss": 0.019886054439328404
+      },
+      {
+        "round": 45,
+        "accuracy": 99.34,
+        "loss": 0.021867088516275147
+      },
+      {
+        "round": 49,
+        "accuracy": 99.33,
+        "loss": 0.023292981166002848
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 10.0,
+      "total_runtime_s": 2373.93
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.34,
+    "final_loss": 0.0223,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 94.42,
+        "loss": 0.1728368208743632
+      },
+      {
+        "round": 5,
+        "accuracy": 98.87,
+        "loss": 0.0316738073794113
+      },
+      {
+        "round": 10,
+        "accuracy": 99.13,
+        "loss": 0.02583107085802112
+      },
+      {
+        "round": 15,
+        "accuracy": 99.11,
+        "loss": 0.025437454691575566
+      },
+      {
+        "round": 20,
+        "accuracy": 99.17,
+        "loss": 0.023450613321313086
+      },
+      {
+        "round": 25,
+        "accuracy": 99.19,
+        "loss": 0.02354945103713817
+      },
+      {
+        "round": 30,
+        "accuracy": 99.29,
+        "loss": 0.022944768207992183
+      },
+      {
+        "round": 35,
+        "accuracy": 99.27,
+        "loss": 0.0241157519253818
+      },
+      {
+        "round": 40,
+        "accuracy": 99.29,
+        "loss": 0.02204022805718182
+      },
+      {
+        "round": 45,
+        "accuracy": 99.28,
+        "loss": 0.023778055884665507
+      },
+      {
+        "round": 49,
+        "accuracy": 99.34,
+        "loss": 0.022254608463434168
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 9.96,
+      "total_runtime_s": 2400.66
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "geo_median",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.32,
+    "final_loss": 0.0226,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 94.56,
+        "loss": 0.1882738779648207
+      },
+      {
+        "round": 5,
+        "accuracy": 98.93,
+        "loss": 0.03088437487858755
+      },
+      {
+        "round": 10,
+        "accuracy": 99.01,
+        "loss": 0.029302732121232113
+      },
+      {
+        "round": 15,
+        "accuracy": 99.2,
+        "loss": 0.02508429194786004
+      },
+      {
+        "round": 20,
+        "accuracy": 99.16,
+        "loss": 0.02501523835928765
+      },
+      {
+        "round": 25,
+        "accuracy": 99.29,
+        "loss": 0.022948177792454772
+      },
+      {
+        "round": 30,
+        "accuracy": 99.24,
+        "loss": 0.025710583197172808
+      },
+      {
+        "round": 35,
+        "accuracy": 99.29,
+        "loss": 0.023322104540841337
+      },
+      {
+        "round": 40,
+        "accuracy": 99.23,
+        "loss": 0.02733026991858196
+      },
+      {
+        "round": 45,
+        "accuracy": 99.24,
+        "loss": 0.02346329533041853
+      },
+      {
+        "round": 49,
+        "accuracy": 99.32,
+        "loss": 0.022610192748959434
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "geo_median": 50
+      },
+      "avg_flagged_per_round": 9.92,
+      "total_runtime_s": 2436.67
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.29,
+    "final_loss": 0.021,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 73.81,
+        "loss": 1.894223290681839
+      },
+      {
+        "round": 5,
+        "accuracy": 97.94,
+        "loss": 0.07156605636700988
+      },
+      {
+        "round": 10,
+        "accuracy": 98.77,
+        "loss": 0.036987222942116205
+      },
+      {
+        "round": 15,
+        "accuracy": 99.03,
+        "loss": 0.027835337359283584
+      },
+      {
+        "round": 20,
+        "accuracy": 99.09,
+        "loss": 0.024524109688627505
+      },
+      {
+        "round": 25,
+        "accuracy": 99.16,
+        "loss": 0.02322675291879932
+      },
+      {
+        "round": 30,
+        "accuracy": 99.2,
+        "loss": 0.0230015623383224
+      },
+      {
+        "round": 35,
+        "accuracy": 99.21,
+        "loss": 0.021368074251017787
+      },
+      {
+        "round": 40,
+        "accuracy": 99.22,
+        "loss": 0.021468902668061673
+      },
+      {
+        "round": 45,
+        "accuracy": 99.27,
+        "loss": 0.020436171715357433
+      },
+      {
+        "round": 49,
+        "accuracy": 99.29,
+        "loss": 0.021022981750786585
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.46,
+      "total_runtime_s": 2398.45
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.3,
+    "final_loss": 0.0214,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 83.46,
+        "loss": 2.0045293390750887
+      },
+      {
+        "round": 5,
+        "accuracy": 97.72,
+        "loss": 0.07303989640204236
+      },
+      {
+        "round": 10,
+        "accuracy": 98.64,
+        "loss": 0.03836154270611587
+      },
+      {
+        "round": 15,
+        "accuracy": 98.96,
+        "loss": 0.028334613068727775
+      },
+      {
+        "round": 20,
+        "accuracy": 99.15,
+        "loss": 0.025218439482341638
+      },
+      {
+        "round": 25,
+        "accuracy": 99.16,
+        "loss": 0.02492089838751781
+      },
+      {
+        "round": 30,
+        "accuracy": 99.22,
+        "loss": 0.022060551766912795
+      },
+      {
+        "round": 35,
+        "accuracy": 99.22,
+        "loss": 0.022716255077989446
+      },
+      {
+        "round": 40,
+        "accuracy": 99.24,
+        "loss": 0.02140443874908442
+      },
+      {
+        "round": 45,
+        "accuracy": 99.29,
+        "loss": 0.020949693442412355
+      },
+      {
+        "round": 49,
+        "accuracy": 99.3,
+        "loss": 0.021394835451511086
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.82,
+      "total_runtime_s": 2487.02
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.24,
+    "final_loss": 0.0242,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 81.36,
+        "loss": 2.0051654666662215
+      },
+      {
+        "round": 5,
+        "accuracy": 97.91,
+        "loss": 0.06633112049894407
+      },
+      {
+        "round": 10,
+        "accuracy": 98.76,
+        "loss": 0.03570386674400652
+      },
+      {
+        "round": 15,
+        "accuracy": 98.84,
+        "loss": 0.029457430674119676
+      },
+      {
+        "round": 20,
+        "accuracy": 99.05,
+        "loss": 0.02572060311658788
+      },
+      {
+        "round": 25,
+        "accuracy": 99.08,
+        "loss": 0.024462318425503327
+      },
+      {
+        "round": 30,
+        "accuracy": 99.09,
+        "loss": 0.02429486777591592
+      },
+      {
+        "round": 35,
+        "accuracy": 99.17,
+        "loss": 0.02390222264655222
+      },
+      {
+        "round": 40,
+        "accuracy": 99.19,
+        "loss": 0.023276268218728545
+      },
+      {
+        "round": 45,
+        "accuracy": 99.23,
+        "loss": 0.022869827815407008
+      },
+      {
+        "round": 49,
+        "accuracy": 99.24,
+        "loss": 0.024220650893619224
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.8,
+      "total_runtime_s": 2432.92
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "normalized",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 99.27,
+    "final_loss": 0.022,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 82.49,
+        "loss": 1.9624456465244293
+      },
+      {
+        "round": 5,
+        "accuracy": 97.84,
+        "loss": 0.06911782457027585
+      },
+      {
+        "round": 10,
+        "accuracy": 98.75,
+        "loss": 0.03624319609662052
+      },
+      {
+        "round": 15,
+        "accuracy": 98.94,
+        "loss": 0.02915053831638943
+      },
+      {
+        "round": 20,
+        "accuracy": 99.09,
+        "loss": 0.025132968643720232
+      },
+      {
+        "round": 25,
+        "accuracy": 99.17,
+        "loss": 0.024035345991251233
+      },
+      {
+        "round": 30,
+        "accuracy": 99.22,
+        "loss": 0.02211922086285085
+      },
+      {
+        "round": 35,
+        "accuracy": 99.27,
+        "loss": 0.02135150490553315
+      },
+      {
+        "round": 40,
+        "accuracy": 99.24,
+        "loss": 0.02180624187029707
+      },
+      {
+        "round": 45,
+        "accuracy": 99.3,
+        "loss": 0.020957189550676956
+      },
+      {
+        "round": 49,
+        "accuracy": 99.27,
+        "loss": 0.022009787757593813
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "normalized": 50
+      },
+      "avg_flagged_per_round": 9.68,
+      "total_runtime_s": 2354.89
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 96.69,
+    "final_loss": 0.1226,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 92.9,
+        "loss": 0.3674500994384289
+      },
+      {
+        "round": 5,
+        "accuracy": 92.11,
+        "loss": 0.2635398586280644
+      },
+      {
+        "round": 10,
+        "accuracy": 90.37,
+        "loss": 0.37229105243459343
+      },
+      {
+        "round": 15,
+        "accuracy": 98.48,
+        "loss": 0.04564519440173172
+      },
+      {
+        "round": 20,
+        "accuracy": 93.88,
+        "loss": 0.21169640854932367
+      },
+      {
+        "round": 25,
+        "accuracy": 97.95,
+        "loss": 0.06593884709654958
+      },
+      {
+        "round": 30,
+        "accuracy": 96.28,
+        "loss": 0.13968899073079227
+      },
+      {
+        "round": 35,
+        "accuracy": 95.79,
+        "loss": 0.15867028790526091
+      },
+      {
+        "round": 40,
+        "accuracy": 95.74,
+        "loss": 0.17114869083743542
+      },
+      {
+        "round": 45,
+        "accuracy": 97.54,
+        "loss": 0.07958050199085846
+      },
+      {
+        "round": 49,
+        "accuracy": 96.69,
+        "loss": 0.12262594540661667
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 5,
+        "krum": 45
+      },
+      "avg_flagged_per_round": 9.7,
+      "total_runtime_s": 2467.01
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 96.94,
+    "final_loss": 0.1185,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 94.88,
+        "loss": 0.21305838208645583
+      },
+      {
+        "round": 5,
+        "accuracy": 92.97,
+        "loss": 0.22615743814967573
+      },
+      {
+        "round": 10,
+        "accuracy": 95.46,
+        "loss": 0.143259042291902
+      },
+      {
+        "round": 15,
+        "accuracy": 94.84,
+        "loss": 0.18540782161289826
+      },
+      {
+        "round": 20,
+        "accuracy": 95.99,
+        "loss": 0.1319804523140192
+      },
+      {
+        "round": 25,
+        "accuracy": 95.97,
+        "loss": 0.14782334121919122
+      },
+      {
+        "round": 30,
+        "accuracy": 96.34,
+        "loss": 0.12924391530832507
+      },
+      {
+        "round": 35,
+        "accuracy": 97.02,
+        "loss": 0.10402767127379775
+      },
+      {
+        "round": 40,
+        "accuracy": 97.44,
+        "loss": 0.08740831682698627
+      },
+      {
+        "round": 45,
+        "accuracy": 96.65,
+        "loss": 0.1271298673851561
+      },
+      {
+        "round": 49,
+        "accuracy": 96.94,
+        "loss": 0.1184830071891156
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 4,
+        "krum": 46
+      },
+      "avg_flagged_per_round": 9.8,
+      "total_runtime_s": 2460.33
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 98.15,
+    "final_loss": 0.0662,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 68.03,
+        "loss": 1.5389891028404237
+      },
+      {
+        "round": 5,
+        "accuracy": 87.17,
+        "loss": 0.46804934591054914
+      },
+      {
+        "round": 10,
+        "accuracy": 91.47,
+        "loss": 0.3065544070675969
+      },
+      {
+        "round": 15,
+        "accuracy": 91.28,
+        "loss": 0.38363135857507585
+      },
+      {
+        "round": 20,
+        "accuracy": 95.32,
+        "loss": 0.14906139606609942
+      },
+      {
+        "round": 25,
+        "accuracy": 96.0,
+        "loss": 0.1540375477867201
+      },
+      {
+        "round": 30,
+        "accuracy": 95.76,
+        "loss": 0.1534698929899605
+      },
+      {
+        "round": 35,
+        "accuracy": 98.41,
+        "loss": 0.04855423137596517
+      },
+      {
+        "round": 40,
+        "accuracy": 97.39,
+        "loss": 0.08850189487857278
+      },
+      {
+        "round": 45,
+        "accuracy": 97.78,
+        "loss": 0.08509735684347106
+      },
+      {
+        "round": 49,
+        "accuracy": 98.15,
+        "loss": 0.0662105680175955
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 45,
+        "trimmed_mean": 5
+      },
+      "avg_flagged_per_round": 9.8,
+      "total_runtime_s": 2491.43
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "adaptive",
+      "attack_type": "AttackType.BACKDOOR",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 97.94,
+    "final_loss": 0.0666,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 92.24,
+        "loss": 0.22910538632422686
+      },
+      {
+        "round": 5,
+        "accuracy": 95.85,
+        "loss": 0.13186442540027202
+      },
+      {
+        "round": 10,
+        "accuracy": 96.79,
+        "loss": 0.10925096517894417
+      },
+      {
+        "round": 15,
+        "accuracy": 92.51,
+        "loss": 0.26297564948908986
+      },
+      {
+        "round": 20,
+        "accuracy": 94.88,
+        "loss": 0.185536300559761
+      },
+      {
+        "round": 25,
+        "accuracy": 96.61,
+        "loss": 0.11201952531409916
+      },
+      {
+        "round": 30,
+        "accuracy": 98.12,
+        "loss": 0.06031276170324418
+      },
+      {
+        "round": 35,
+        "accuracy": 98.36,
+        "loss": 0.0584966062757303
+      },
+      {
+        "round": 40,
+        "accuracy": 98.64,
+        "loss": 0.03917046075375765
+      },
+      {
+        "round": 45,
+        "accuracy": 98.37,
+        "loss": 0.0534103305239114
+      },
+      {
+        "round": 49,
+        "accuracy": 97.94,
+        "loss": 0.06657551140524447
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "trimmed_mean": 4,
+        "krum": 46
+      },
+      "avg_flagged_per_round": 9.84,
+      "total_runtime_s": 2638.02
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.ADAPTIVE",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 9.8,
+    "final_loss": NaN,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 0.89,
+        "loss": 2.3924339056015014
+      },
+      {
+        "round": 5,
+        "accuracy": 0.42,
+        "loss": 2.7389481544494627
+      },
+      {
+        "round": 10,
+        "accuracy": 4.42,
+        "loss": 7.409090685844421
+      },
+      {
+        "round": 15,
+        "accuracy": 10.1,
+        "loss": 8700176.8375
+      },
+      {
+        "round": 20,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 25,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 30,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 35,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 40,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 45,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 49,
+        "accuracy": 9.8,
+        "loss": NaN
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 3.2,
+      "total_runtime_s": 2560.4
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.ADAPTIVE",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 9.8,
+    "final_loss": NaN,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 9.74,
+        "loss": 2.6756638109683992
+      },
+      {
+        "round": 5,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 10,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 15,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 20,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 25,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 30,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 35,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 40,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 45,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 49,
+        "accuracy": 9.8,
+        "loss": NaN
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 0.48,
+      "total_runtime_s": 2482.12
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.ADAPTIVE",
+      "malicious_ratio": 0.3,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 9.8,
+    "final_loss": NaN,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 10.97,
+        "loss": 4.386953663825989
+      },
+      {
+        "round": 5,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 10,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 15,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 20,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 25,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 30,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 35,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 40,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 45,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 49,
+        "accuracy": 9.8,
+        "loss": NaN
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 0.56,
+      "total_runtime_s": 2458.91
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "fedavg",
+      "attack_type": "AttackType.ADAPTIVE",
+      "malicious_ratio": 0.4,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 9.8,
+    "final_loss": NaN,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 20.68,
+        "loss": 4.19551802277565
+      },
+      {
+        "round": 5,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 10,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 15,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 20,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 25,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 30,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 35,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 40,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 45,
+        "accuracy": 9.8,
+        "loss": NaN
+      },
+      {
+        "round": 49,
+        "accuracy": 9.8,
+        "loss": NaN
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "fedavg": 50
+      },
+      "avg_flagged_per_round": 0.48,
+      "total_runtime_s": 2422.04
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.ADAPTIVE",
+      "malicious_ratio": 0.1,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 96.28,
+    "final_loss": 0.1193,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 91.37,
+        "loss": 0.27213470041751864
+      },
+      {
+        "round": 5,
+        "accuracy": 86.22,
+        "loss": 0.4929571721702814
+      },
+      {
+        "round": 10,
+        "accuracy": 88.25,
+        "loss": 0.4750159714370966
+      },
+      {
+        "round": 15,
+        "accuracy": 92.44,
+        "loss": 0.28730087596923115
+      },
+      {
+        "round": 20,
+        "accuracy": 93.31,
+        "loss": 0.2076139371842146
+      },
+      {
+        "round": 25,
+        "accuracy": 93.23,
+        "loss": 0.2639400847023353
+      },
+      {
+        "round": 30,
+        "accuracy": 93.12,
+        "loss": 0.2856598806218244
+      },
+      {
+        "round": 35,
+        "accuracy": 92.95,
+        "loss": 0.2991402706480585
+      },
+      {
+        "round": 40,
+        "accuracy": 92.59,
+        "loss": 0.3281389965559356
+      },
+      {
+        "round": 45,
+        "accuracy": 92.47,
+        "loss": 0.31140339279081675
+      },
+      {
+        "round": 49,
+        "accuracy": 96.28,
+        "loss": 0.11926345410756767
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 10.0,
+      "total_runtime_s": 2071.67
+    }
+  },
+  {
+    "config": {
+      "dataset": "mnist",
+      "strategy": "krum",
+      "attack_type": "AttackType.ADAPTIVE",
+      "malicious_ratio": 0.2,
+      "iid": false,
+      "rounds": 50,
+      "num_clients": 10
+    },
+    "final_accuracy": 95.07,
+    "final_loss": 0.2136,
+    "accuracy_history": [
+      {
+        "round": 0,
+        "accuracy": 64.56,
+        "loss": 2.131550830602646
+      },
+      {
+        "round": 5,
+        "accuracy": 84.36,
+        "loss": 0.6335379041731357
+      },
+      {
+        "round": 10,
+        "accuracy": 97.31,
+        "loss": 0.08587461812858237
+      },
+      {
+        "round": 15,
+        "accuracy": 91.59,
+        "loss": 0.35517705250531434
+      },
+      {
+        "round": 20,
+        "accuracy": 90.41,
+        "loss": 0.4363976169377565
+      },
+      {
+        "round": 25,
+        "accuracy": 92.55,
+        "loss": 0.27028250992298125
+      },
+      {
+        "round": 30,
+        "accuracy": 93.62,
+        "loss": 0.2444979900959879
+      },
+      {
+        "round": 35,
+        "accuracy": 94.87,
+        "loss": 0.19559000497683882
+      },
+      {
+        "round": 40,
+        "accuracy": 97.7,
+        "loss": 0.08328100568760419
+      },
+      {
+        "round": 45,
+        "accuracy": 95.47,
+        "loss": 0.18804363809758798
+      },
+      {
+        "round": 49,
+        "accuracy": 95.07,
+        "loss": 0.2135653071338311
+      }
+    ],
+    "summary": {
+      "total_rounds": 50,
+      "strategy_distribution": {
+        "krum": 50
+      },
+      "avg_flagged_per_round": 8.0,
+      "total_runtime_s": 2137.67
+    }
+  }
+]
